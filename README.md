@@ -164,4 +164,4 @@ Dashboard for APM Terminals
 
 * Try to reset containers changing PHP version on php.dockerfile.
 
-* Try to [change composer PHP version](#change-composer-platform-php-version).
+* Try to [change composer platform PHP version](#change-composer-platform-php-version).
