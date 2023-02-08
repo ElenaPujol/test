@@ -13,7 +13,7 @@ Dashboard for APM Terminals
 
    ```run_up.sh```
 
-#####4. Update new dependencies.
+##### 4. Update new dependencies.
 
    #### From container:
 
