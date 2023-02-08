@@ -131,7 +131,9 @@ Dashboard for APM Terminals
 
 1. It is caused by running different PHP versions between host machine PHP and Docker container PHP inside a Docker volume. Try to reset containers changing PHP version on php.dockerfile. 
 
-### If we have something like ```Fatal error: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.22. in /var/www/html/vendor/composer/platform_check.php on line 24```. Change composer platform PHP version. {#change-composer-platform-php-version}
+### If we have something like ```Fatal error: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.22. in /var/www/html/vendor/composer/platform_check.php on line 24```.
+
+#### Change composer platform PHP version.
 
 1. Remove ```src/vendor``` folder.
 
