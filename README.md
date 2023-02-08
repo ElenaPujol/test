@@ -130,7 +130,7 @@ Dashboard for APM Terminals
 
 ### If we have something like ```PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in path/to/file.php on line 30```.
 
-1. It is caused by running different PHP versions between host machine PHP and Docker container PHP inside a Docker volume. Try to reset containers changing PHP version on php.dockerfile.
+1. It is caused by running different PHP versions between host machine PHP version and Docker container PHP version used inside a Docker volume. Try to reset containers changing PHP version on php.dockerfile. And try to not alternate run commands from both sides, only from containter or only from host machine.
 
 ### If we have something like ```Fatal error: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.22. in /var/www/html/vendor/composer/platform_check.php on line 24```.
 
