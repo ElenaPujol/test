@@ -133,7 +133,7 @@ Dashboard for APM Terminals
 
 ### If we have something like ```Fatal error: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.22. in /var/www/html/vendor/composer/platform_check.php on line 24```.
 
-#### Change composer platform PHP version.
+#### * Change composer platform PHP version.
 
 1. Remove ```src/vendor``` folder.
 
