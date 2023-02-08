@@ -15,13 +15,13 @@ Dashboard for APM Terminals
 
 4. Update new dependencies.
 
-   From container:
+   #### From container:
 
     ```docker compose run --rm composer update```
 
     ```docker compose run --rm composer install```
 
-   or from host machine:
+   #### From host machine:
 
    ```cd src/```
 
