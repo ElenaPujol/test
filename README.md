@@ -1,4 +1,5 @@
 # apm-terminals
+
 Dashboard for APM Terminals
 
 ## Installation
@@ -7,31 +8,31 @@ Dashboard for APM Terminals
 
 2. Make a EOL conversion of the scripts.
 
-   ```sed -i.bak 's/\r$//' scripts/mongo-rs-no-auth-setup.sh```
+    ```sed -i.bak 's/\r$//' scripts/mongo-rs-no-auth-setup.sh```
 
 3. Up the Docker containers.
 
-   ```run_up.sh```
+    ```run_up.sh```
 
 4. Update new dependencies.
 
-   #### From container:
+    #### From container:
 
     ```docker compose run --rm composer update```
 
     ```docker compose run --rm composer install```
 
-   #### From host machine:
+    #### From host machine:
 
-   ```cd src/```
+    ```cd src/```
 
-   ```composer update```
+    ```composer update```
 
-   ```composer install```
+    ```composer install```
 
 5. Install node modules.
 
-   ```docker compose run --rm npm install```
+    ```docker compose run --rm npm install```
 
 6. Execute this command line to UP all docker containers:
 
@@ -45,21 +46,21 @@ Dashboard for APM Terminals
 
 1. Remove ```src``` directory if exists.
 
-   ```rm -R src```
+    ```rm -R src```
 
 2. Up the Docker containers.
 
-   ```run_up.sh```
+    ```run_up.sh```
 
 3. Create a new Laravel poject. This will also download all dependencies.
 
     #### From container:
 
-   ```docker compose run --rm composer create-project laravel/laravel . 8.5.9 --prefer-dist```
+    ```docker compose run --rm composer create-project laravel/laravel . 8.5.9 --prefer-dist```
 
     Then [check and change PHP version](#change-composer-platform-php-version) if necessary.
 
-    >sudo chmod -R 777 storage && sudo chmod -R 777 bootstrap/cache
+    > sudo chmod -R 777 storage && sudo chmod -R 777 bootstrap/cache
     >
     >docker compose run --rm artisan key:generate
 
@@ -74,10 +75,10 @@ Dashboard for APM Terminals
 1. Check if the shell scripts have the correct "end-of-line":
 
     1. Confirm that shell file is not found by looking ```mongodb-setup``` container logs.
-    
+
         ```docker logs mongodb-setup | grep "exec /scripts/mongo-rs-no-auth-setup.sh: no such file or directory"```
 
-        The response must be ```exec /scripts/mongo-rs-no-auth-setup.sh: no such file or directory``` string repeated  several times.
+        The response must be ```exec /scripts/mongo-rs-no-auth-setup.sh: no such file or directory``` string repeated several times.
 
     2. Confirm that mongodb is not the PRIMARY replica set.
 
@@ -121,7 +122,7 @@ Dashboard for APM Terminals
 
 2. Restart Docker service.
 
-### From Windows, if we have ```the input device is not a TTY.  If you are using mintty, try prefixing the command with 'winpty'```.
+### From Windows, if we have ```the input device is not a TTY. If you are using mintty, try prefixing the command with 'winpty'```.
 
 1. Put ```winpty``` before de command (ex. ```docker exec -it mongodb mongo```):
 
@@ -129,7 +130,7 @@ Dashboard for APM Terminals
 
 ### If we have something like ```PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in path/to/file.php on line 30```.
 
-1. It is caused by running different PHP versions between host machine PHP and Docker container PHP inside a Docker volume. Try to reset containers changing PHP version on php.dockerfile. 
+1. It is caused by running different PHP versions between host machine PHP and Docker container PHP inside a Docker volume. Try to reset containers changing PHP version on php.dockerfile.
 
 ### If we have something like ```Fatal error: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.22. in /var/www/html/vendor/composer/platform_check.php on line 24```.
 
@@ -151,7 +152,7 @@ Dashboard for APM Terminals
             "php": "7.4.22"
         }
     }
-   ```
+    ```
 
 4. Update composer.
 
