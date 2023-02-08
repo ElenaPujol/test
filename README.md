@@ -16,15 +16,12 @@ Dashboard for APM Terminals
 4. Update new dependencies.
 
    #### From container:
-   ##### From container:
-   ###### From container:
-   ####### From container:
 
     ```docker compose run --rm composer update```
 
     ```docker compose run --rm composer install```
 
-   ##### From host machine:
+   #### From host machine:
 
    ```cd src/```
 
@@ -56,7 +53,7 @@ Dashboard for APM Terminals
 
 3. Create a new Laravel poject. This will also download all dependencies.
 
-    ####### From container:
+    #### From container:
 
    ```docker compose run --rm composer create-project laravel/laravel . 8.5.9 --prefer-dist```
 
@@ -66,7 +63,7 @@ Dashboard for APM Terminals
     >
     >docker compose run --rm artisan key:generate
 
-    ####### From host machine:
+    #### From host machine:
 
     ```composer create-project laravel/laravel src 8.5.9 --prefer-dist```
 
