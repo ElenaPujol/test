@@ -15,7 +15,10 @@ Dashboard for APM Terminals
 
 4. Update new dependencies.
 
+   #### From container:
+   ##### From container:
    ###### From container:
+   ####### From container:
 
     ```docker compose run --rm composer update```
 
