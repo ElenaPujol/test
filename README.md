@@ -46,7 +46,7 @@ Dashboard for APM Terminals
 
 1. Remove ```src``` directory if exists.
 
-    ```rm -R src```
+    ```rm -Rv src```
 
 2. Up the Docker containers.
 
@@ -60,13 +60,11 @@ Dashboard for APM Terminals
 
     Then [check and change PHP version](#change-composer-platform-php-version) if necessary.
 
-    > sudo chmod -R 777 storage && sudo chmod -R 777 bootstrap/cache
-    >
-    >docker compose run --rm artisan key:generate
-
     #### From host machine:
 
     ```composer create-project laravel/laravel src 8.5.9 --prefer-dist```
+
+## Dependencies
 
 ## Troubleshoots
 
@@ -136,15 +134,15 @@ Dashboard for APM Terminals
 
 #### Change composer platform PHP version.
 
-1. Remove ```src/vendor``` folder.
-
-    ```rm -R src/vendor```
-
-2. Look for php conteiner's PHP version.
+1. Look for php conteiner's PHP version.
 
     ```docker compose run --rm php -v```
 
-3. Edit ```composer.json``` file adding platform PHP version (the same as used in php container) into config section.
+2. Remove ```src/vendor``` folder.
+
+    ```rm -Rv src/vendor```
+
+3. Edit ```src/composer.json``` file adding platform PHP version (the same as used in php container) into config section.
 
     ```
     "config": {
