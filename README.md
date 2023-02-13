@@ -68,7 +68,7 @@ Dashboard for APM Terminals
 
 ## Troubleshoots
 
-### mongodb-setup container continually restarting and mongodb container isn't the PRIMARY replica set.
+* ### mongodb-setup container continually restarting and mongodb container isn't the PRIMARY replica set.
 
 1. Check if the shell scripts have the correct "end-of-line":
 
