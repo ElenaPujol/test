@@ -5,7 +5,7 @@
 
 
 <br><br>
-## DescripciÓ de la PAC
+## Descripció de la PAC
 
 Quarta pràctica de l'assignatura.
 Primera aplicació utilitzant el framework Angular utilitzant la seva eina CLI anomenada Angular CLI.
