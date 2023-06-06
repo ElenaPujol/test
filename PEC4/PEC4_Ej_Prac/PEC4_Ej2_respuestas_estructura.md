@@ -35,7 +35,7 @@
         * Ficheros app.component.*
         * Fichero app.module.ts
   
-    ### Respuesta:
+    #### Respuesta:
 
     Para crear un nuevo proyecto Angular utilizando Angular CLI denominado ecommerce hay que usar el siguiente comando:
 
@@ -56,7 +56,7 @@
     * app.module.ts - @NgModule (declarations, imports, providers, bootstrap).
     * app.component.ts - @Component (selector, templateUrl, styleUrls).
 
-    ### Respuesta:
+    #### Respuesta:
 
     P
 
@@ -64,7 +64,6 @@
 
 3. ### (0.25 puntos) ¿Es posible poder inyectar el template y los estilos en línea de un componente sin necesidad de especificarlos en templateUrl, styleUrls? ¿Es recomendable hacer esto?
    
-    ### Respuesta:
     #### Respuesta:
 
     P
