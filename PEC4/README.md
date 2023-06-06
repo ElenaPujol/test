@@ -23,7 +23,7 @@ Hi havia problemes de versions amb node i npm per culpa d'una actualització i n
 <br><br>
 ## Observacions
 
-Lorem Ipsum ...
+Lorem[^2] Ipsum ...
 
 <br><br>
 ## Links
