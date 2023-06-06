@@ -13,7 +13,7 @@ Primera aplicació utilitzant el framework Angular utilitzant la seva eina CLI a
 <br><br>
 ## Dificultats
 
-No one.
+Hi havia problemes de versions amb node i npm per culpa d'una actualització i no s'instalaba correctament l'Angular CLI. La solució s'ha trobat [aquí](https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found)[^1].
 
 <br><br>
 ## Millores realitzades
@@ -24,3 +24,25 @@ No one.
 ## Observacions
 
 Lorem Ipsum ...
+
+<br><br>
+## Links
+
+[^1] : https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found
+
+Lorem Ipsum ...
+
+<br><br>
+## Notes
+
+Per sortir del editor:
+
+    [Ctrl] + x
+    [Ctrl] + c
+
+
+Lorem Ipsum ...
+
+
+ cd UOC_Projects/2022-2023_2/M4.254\ -\ Desenv.\ front-end\ amb\ framew.\ JavaScript/PEC4/
+
