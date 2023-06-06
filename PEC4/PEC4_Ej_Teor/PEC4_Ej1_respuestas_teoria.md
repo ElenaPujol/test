@@ -9,7 +9,7 @@
 
 <br>
 
-1. ### Debes realizar los pasos necesarios para instalar Angular CLI en tu equipo. Para ello debes seguir los pasos explicados en la web oficial del proyecto: https://angular.io/cli<br>A continuación, crea una carpeta PEC4_Ej_Teor, dentro crea un fichero Markdown que tenga como nombre PEC4_Ej1_respuestas_teoria.md y explica qué realiza cada una de las siguientes opciones de Angular CLI.
+1. ### Debes realizar los pasos necesarios para instalar Angular CLI en tu equipo. Para ello debes seguir los pasos explicados en la web oficial del proyecto: https://angular.io/cli<br><br>A continuación, crea una carpeta PEC4_Ej_Teor, dentro crea un fichero Markdown que tenga como nombre PEC4_Ej1_respuestas_teoria.md y explica qué realiza cada una de las siguientes opciones de Angular CLI.
 
     * ng new -> 
     * ng generate -> 
