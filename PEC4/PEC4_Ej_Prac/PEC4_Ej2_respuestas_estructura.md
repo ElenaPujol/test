@@ -37,7 +37,7 @@
     
     ### Respuesta:
 
-    > Para crear un nuevo proyecto Angular utilizando Angular CLI denominado ecommerce hay que usar el siguiente comando:
+    Para crear un nuevo proyecto Angular utilizando Angular CLI denominado ecommerce hay que usar el siguiente comando:
     
     $ ng new ecommerce
   
