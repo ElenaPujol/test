@@ -65,6 +65,7 @@
 3. ### (0.25 puntos) ¿Es posible poder inyectar el template y los estilos en línea de un componente sin necesidad de especificarlos en templateUrl, styleUrls? ¿Es recomendable hacer esto?
    
     ### Respuesta:
+    #### Respuesta:
 
     P
   
