@@ -28,10 +28,10 @@ Lorem Ipsum ...
 <br><br>
 ## Links
 
-https://angular.io/cli[^1]
+https://angular.io/cli [^1]
 [^1]: See https://angular.io/cli
 
-https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found[^2]
+https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found [^2]
 [^2]: See https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found
 
 
