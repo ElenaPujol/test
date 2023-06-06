@@ -28,6 +28,7 @@ Lorem[^2] Ipsum ...
 <br><br>
 ## Links
 
+https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found
 [^1]: See https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found
 
 <br><br>
