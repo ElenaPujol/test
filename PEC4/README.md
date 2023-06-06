@@ -13,7 +13,7 @@ Primera aplicació utilitzant el framework Angular utilitzant la seva eina CLI a
 <br><br>
 ## Dificultats
 
-Hi havia problemes de versions amb node i npm per culpa d'una actualització i no s'instalaba correctament l'Angular CLI. La solució s'ha trobat [aquí](https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found)[^1].
+Hi havia problemes de versions amb node i npm per culpa d'una actualització i no s'instalaba correctament l'Angular CLI. La solució s'ha trobat [aquí](https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found)[^2].
 
 <br><br>
 ## Millores realitzades
@@ -23,13 +23,17 @@ Hi havia problemes de versions amb node i npm per culpa d'una actualització i n
 <br><br>
 ## Observacions
 
-Lorem[^2] Ipsum ...
+Lorem Ipsum ...
 
 <br><br>
 ## Links
 
-https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found [^1]
-[^1]: See https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found
+https://angular.io/cli[^1]
+[^1]: See https://angular.io/cli
+
+https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found[^2]
+[^2]: See https://stackoverflow.com/questions/72921215/getting-glibc-2-28-not-found
+
 
 <br><br>
 ## Notes
