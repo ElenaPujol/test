@@ -16,10 +16,10 @@
 1. ### (0.75 puntos) ¿Qué comando debes utilizar para crear un nuevo proyecto Angular utilizando Angular CLI denominado ecommerce? (A las preguntas que te haga Angular CLI puedes contestar utilizando las opciones por defecto).<br><br>Con Angular Cli crea el proyecto angular ecommerce y explica brevemente la estructura y ficheros que ha generado Angular CLI:
 
     * Ficheros de configuración en la raíz del proyecto:
-      * tsconfing.app.json
+      * tsconfig.app.json
       * angular.json
       * package.json
-      * .editorconfig,
+      * .editorconfig
       * .gitignore
       * …
     * Directorio node_modules
@@ -38,6 +38,14 @@
     ### Respuesta:
 
     Para crear un nuevo proyecto Angular utilizando Angular CLI denominado ecommerce hay que usar el siguiente comando:
-    
-    $ ng new ecommerce
+
+        $ ng new ecommerce
+
+    La estructura y ficheros generados són:
+      * Ficheros de configuración en la raíz del proyecto: para la configuración del compilador TypeScript (tsconfig.app.json), describir la aplicación Angular a las herramientas de creación de aplicaciones (angular.json), ejecutar la aplicación con npm (package.json), mantener la consistencia en los estilos de codificación (.editorconfig), ignorar ficheros en el repositorio GIT (.gitignore),...
+      * Directorio node_modules: contiene los paquetes node.js que usa la aplicación.
+      * Directorio src: contiene el código de la aplicación. La plantilla HTML (index.html), donde la aplicación comienza a ejecutarse (main.ts), donde se describe el estilo de la plantilla HTML (styles.css), donde se comienza a ejecutar el test unitario de la aplicación (test.ts), donde la aplicación se compatibiliza en diferentes navegadores (polyfills.ts), ...
+      * Directorio environments: donde todas las configuraciones de la aplicación se mantienen en un entorno específico.
+      * Directorio assets: donde todo lo que se guarde dentro de este directorio se vuelve público.
+      * Directorio app: donde se guardan los archivos que se han creado para los componentes de la aplicación.
   
